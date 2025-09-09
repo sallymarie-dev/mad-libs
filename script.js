@@ -1,3 +1,4 @@
+
 onEvent("button1", "click", function(){
     var userName=getText("box1");
     var icecream=getText("box2");
@@ -11,6 +12,6 @@ onEvent("button1", "click", function(){
   setText("textbox",userMessage);
 });
 onEvent("button1", "click", function( ) {
-	console.log("button2 clicked!");
-	setScreen("page2.html");
-});jjjjjkju8kjuyinjmkjbnkuyjmhun khob8li7u9kim hyyyyyyyyyyyy /* aa.. */
+	console.log("button1 clicked!");
+	setImageURL("myButton","lollipop.jpeg");
+});
