@@ -157,3 +157,24 @@ function onEvent(id, event, handler) {
     console.info("setImageURL: #" + id + " → " + url);
   }
   
+function visibleElement(id, status) {
+  const el = document.getElementById(id)
+  if (!el) {
+    console.warn("visibleElement: Element with id '" + id + "' not found.");
+    return;
+  } else {
+    if (status == true) {
+      el.classList.remove("d-none");
+      console.info("visibleElement: Element with id '" + id + "' has been shown.");
+    } else {
+      el.classList.add("d-none");
+      console.info("visibleElement: Element with id '" + id + "' has been hidden.");
+    }
+  }
+}
+
+
+
+
+
+
